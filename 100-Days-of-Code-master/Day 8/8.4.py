@@ -1,5 +1,8 @@
+# math.ceil() rounds up to the next nearest integer.
+
+import math
 def paint_wall(height,width):
     coverage = 5
     cans_req = (height*width)/coverage
-    print(round(cans_req))
-paint_wall(2,4)
+    print(math.ceil(cans_req))
+paint_wall(7,13)
